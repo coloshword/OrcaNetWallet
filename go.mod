@@ -2,7 +2,7 @@ module github.com/btcsuite/btcwallet
 
 require (
 	github.com/btcsuite/btcd v0.24.1-0.20240116200649-17fdc5219b36
-	github.com/btcsuite/btcd/btcec/v2 v2.2.2
+	github.com/btcsuite/btcd/btcec/v2 v2.3.2
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btcd/btcutil/psbt v1.1.8
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
@@ -50,5 +50,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/btcsuite/btcd => github.com/coloshword/OrcaNetGo v0.0.0-20240304202553-eb117edb24ea
 
 go 1.18
