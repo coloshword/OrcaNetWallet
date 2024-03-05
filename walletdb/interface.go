@@ -270,6 +270,7 @@ func View(db DB, f func(tx ReadTx) error) error {
 // NOTE: For new code the database backend's Update method should be used
 // directly as this package level function will be phased out in the future.
 func Update(db DB, f func(tx ReadWriteTx) error) error {
+	fmt.Println("fun Update() in interface.go")
 	return db.Update(f, func() {})
 }
 

@@ -71,6 +71,7 @@ func (tx *transaction) ForEachBucket(fn func(key []byte) error) error {
 
 func (tx *transaction) ReadWriteBucket(key []byte) walletdb.ReadWriteBucket {
 	boltBucket := tx.boltTx.Bucket(key)
+	fmt.printLn("error")
 	if boltBucket == nil {
 		return nil
 	}
@@ -413,6 +414,7 @@ func (db *db) Update(f func(tx walletdb.ReadWriteTx) error, reset func()) error 
 	// We don't do any retries with bolt so we just initially call the reset
 	// function once.
 	reset()
+	fmt.Println("wallet db update called")
 
 	tx, err := db.BeginReadWriteTx()
 	if err != nil {

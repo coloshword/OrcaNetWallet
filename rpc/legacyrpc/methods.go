@@ -680,7 +680,7 @@ func renameAccount(icmd interface{}, w *wallet.Wallet) (interface{}, error) {
 // the gap limit.
 func getNewAddress(icmd interface{}, w *wallet.Wallet) (interface{}, error) {
 	cmd := icmd.(*btcjson.GetNewAddressCmd)
-
+	fmt.Println("getNewAddress called")
 	acctName := defaultAccountName
 	if cmd.Account != nil {
 		acctName = *cmd.Account

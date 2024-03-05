@@ -3124,8 +3124,9 @@ func (w *Wallet) SortedActivePaymentAddresses() ([]string, error) {
 // NewAddress returns the next external chained address for a wallet.
 func (w *Wallet) NewAddress(account uint32,
 	scope waddrmgr.KeyScope) (btcutil.Address, error) {
-
+	
 	chainClient, err := w.requireChainClient()
+	fmt.Println("Wallet New address called")
 	if err != nil {
 		return nil, err
 	}
@@ -3134,12 +3135,14 @@ func (w *Wallet) NewAddress(account uint32,
 		addr  btcutil.Address
 		props *waddrmgr.AccountProperties
 	)
+	fmt.Println("error 1.9")
 	err = walletdb.Update(w.db, func(tx walletdb.ReadWriteTx) error {
 		addrmgrNs := tx.ReadWriteBucket(waddrmgrNamespaceKey)
 		var err error
 		addr, props, err = w.newAddress(addrmgrNs, account, scope)
 		return err
 	})
+	fmt.Println("error 2")
 	if err != nil {
 		return nil, err
 	}
@@ -3149,9 +3152,7 @@ func (w *Wallet) NewAddress(account uint32,
 	if err != nil {
 		return nil, err
 	}
-
 	w.NtfnServer.notifyAccountProperties(props)
-
 	return addr, nil
 }
 
