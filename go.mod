@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet
+module github.com/coloshword/OrcaNetWallet
 
 require (
 	github.com/btcsuite/btcd v0.24.1-0.20240116200649-17fdc5219b36
@@ -7,6 +7,7 @@ require (
 	github.com/btcsuite/btcd/btcutil/psbt v1.1.8
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
+	github.com/btcsuite/btcwallet v0.0.0-00010101000000-000000000000
 	github.com/btcsuite/btcwallet/wallet/txauthor v1.3.4
 	github.com/btcsuite/btcwallet/wallet/txrules v1.2.1
 	github.com/btcsuite/btcwallet/wallet/txsizes v1.2.4
@@ -36,21 +37,21 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/lru v1.0.0 // indirect
 	github.com/kkdai/bstream v1.0.0 // indirect
-	github.com/kr/pretty v0.3.0 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/lightningnetwork/lnd/clock v1.0.1 // indirect
 	github.com/lightningnetwork/lnd/queue v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/btcsuite/btcd => github.com/coloshword/OrcaNet v0.0.0-20240318170655-2cfde8161185
+
+replace github.com/btcsuite/btcwallet => github.com/coloshword/OrcaNetWallet v0.0.0-20240318171857-d3d4328ce174
 
 go 1.18

@@ -33,7 +33,7 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
+	"github.com/btcsuite/btcwallet/pkg/cfgutil"
 	"github.com/btcsuite/btcwallet/internal/zero"
 	"github.com/btcsuite/btcwallet/netparams"
 	pb "github.com/btcsuite/btcwallet/rpc/walletrpc"
