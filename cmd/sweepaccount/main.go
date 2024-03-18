@@ -16,7 +16,7 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/coloshword/OrcaNetWallet/pkg/cfgutil"
-	"github.com/btcsuite/btcwallet/netparams"
+	"github.com/coloshword/OrcaNetWallet/netparams"
 	"github.com/btcsuite/btcwallet/wallet/txauthor"
 	"github.com/btcsuite/btcwallet/wallet/txrules"
 	"github.com/btcsuite/btcwallet/wallet/txsizes"

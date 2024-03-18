@@ -31,7 +31,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/internal/legacy/rename"
+	"github.com/coloshword/OrcaNetWallet/pkg/legacy/rename"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 
