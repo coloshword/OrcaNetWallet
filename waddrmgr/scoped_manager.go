@@ -13,7 +13,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/internal/zero"
+	"github.com/coloshword/OrcaNetWallet/pkg/zero"
 	"github.com/coloshword/OrcaNetWallet/netparams"
 	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino/cache/lru"

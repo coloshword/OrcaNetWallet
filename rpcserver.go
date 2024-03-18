@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
+	"github.com/coloshword/OrcaNetWallet/rpc/legacyrpc"
+	"github.com/coloshword/OrcaNetWallet/rpc/rpcserver"
+	"github.com/coloshword/OrcaNetWallet/wallet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
