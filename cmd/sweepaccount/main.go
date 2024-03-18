@@ -15,7 +15,7 @@ import (
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/pkg/cfgutil"
+	"github.com/coloshword/OrcaNetWallet/pkg/cfgutil"
 	"github.com/btcsuite/btcwallet/netparams"
 	"github.com/btcsuite/btcwallet/wallet/txauthor"
 	"github.com/btcsuite/btcwallet/wallet/txrules"
