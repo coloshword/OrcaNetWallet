@@ -51,6 +51,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/btcsuite/btcd => github.com/coloshword/OrcaNetGo v0.0.0-20240304202553-eb117edb24ea
+replace github.com/btcsuite/btcd => github.com/coloshword/OrcaNet v0.0.0-20240318170655-2cfde8161185
 
 go 1.18

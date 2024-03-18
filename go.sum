@@ -29,8 +29,8 @@ github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd/go.mod h1:HHNXQz
 github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792 h1:R8vQdOQdZ9Y3SkEwmHoWBmX1DNXhXZqlTpq6s4tyJGc=
 github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792/go.mod h1:ghJtEyQwv5/p4Mg4C0fgbePVuGr935/5ddU9Z3TmDRY=
 github.com/btcsuite/winsvc v1.0.0/go.mod h1:jsenWakMcC0zFBFurPLEAyrnc/teJEM1O46fmI40EZs=
-github.com/coloshword/OrcaNetGo v0.0.0-20240304202553-eb117edb24ea h1:iTU0tvJiFgM4kZsgoYgRB9GB3XaTOr4uRk+kHwJRCoM=
-github.com/coloshword/OrcaNetGo v0.0.0-20240304202553-eb117edb24ea/go.mod h1:BaEPl6/Hc6Ljf6kWYm5vknedFBv4Y6FeVxwq4uv3aSA=
+github.com/coloshword/OrcaNet v0.0.0-20240318170655-2cfde8161185 h1:SA/HEN/KcLESUc56vIHHUVkj6ASjZbsfW6N+qFk2Hdk=
+github.com/coloshword/OrcaNet v0.0.0-20240318170655-2cfde8161185/go.mod h1:Hm3RVNmbkXv8rclG84Dqo7DgYju83wvLAnyzCzvPBHY=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
